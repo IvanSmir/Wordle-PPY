@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+  }
+     
+  .container{
+    width: auto;
+    min-width: 350px ;
+    max-width: 600px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  h1 {
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 2px 2px 4px #b8b2b2
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 5px; 
+      color: white;
+  }
+     
+  #grid{
+    margin-top: 10px;
+
+  }
+  .row{
+        display: flex;
+      margin-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+ 
+  #error-message{
+    color: red; margin-top: 10px;
+  }
+
+  #reset-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: none;
+  }
+
+  .ganaste {
+    color: green;
+}
+
+.perdiste {
+    color: red;
+}
